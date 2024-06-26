@@ -1,0 +1,11 @@
+{
+	"id": 2,
+	"username": "michaelw",
+	"email": "michael.williams@x.dummyjson.com",
+	"firstName": "Michael",
+	"lastName": "Williams",
+	"gender": "male",
+	"image": "https://dummyjson.com/icon/michaelw/128",
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJtaWNoYWVsdyIsImVtYWlsIjoibWljaGFlbC53aWxsaWFtc0B4LmR1bW15anNvbi5jb20iLCJmaXJzdE5hbWUiOiJNaWNoYWVsIiwibGFzdE5hbWUiOiJXaWxsaWFtcyIsImdlbmRlciI6Im1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL21pY2hhZWx3LzEyOCIsImlhdCI6MTcxOTM1MzMzNiwiZXhwIjoxNzE5MzU2OTM2fQ.oiJhWocBgTsQ2_9NMMvk-KMoz1Ghun6me6mdvA6k-XM",
+	"refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJtaWNoYWVsdyIsImVtYWlsIjoibWljaGFlbC53aWxsaWFtc0B4LmR1bW15anNvbi5jb20iLCJmaXJzdE5hbWUiOiJNaWNoYWVsIiwibGFzdE5hbWUiOiJXaWxsaWFtcyIsImdlbmRlciI6Im1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL21pY2hhZWx3LzEyOCIsImlhdCI6MTcxOTM1MzMzNiwiZXhwIjoxNzIxOTQ1MzM2fQ.PdmPZk5EbSLrAoP7U1Mj75dVyBytxTNPhpAQXPWYGNw"
+}
