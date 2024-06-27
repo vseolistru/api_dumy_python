@@ -1,11 +1,9 @@
-import asyncio
 import pytest
-from utils.utils import request_get_async_client, request_post_client, export_json_data
+from utils.utils import request_get_async_client, request_post_client
 from utils.json_validation import playground_validate
-from enums.enams import GlobalErrors
+from playground_project.tests.enums.enums import GlobalErrors
 from models.api_shema_class import resource, carts
 from models.schema import json_carts_dummy_schema
-import requests, json
 from apischema import serialize
 from jsonschema import validate
 

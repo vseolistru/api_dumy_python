@@ -1,0 +1,20 @@
+{
+    "address": {
+        "address": "907 Seventh Street",
+        "city": "Columbus",
+        "state": "Arkansas",
+        "stateCode": "AR",
+        "postalCode": "78805",
+        "coordinates": {
+            "lat": -64.846516,
+            "lng": 174.775744
+        },
+        "country": "United States"
+    },
+    "bank": {
+        "cardExpire": "05/26",
+        "cardNumber": "7884268130452098",
+        "cardType": "UnionPay",
+        "currency": "NZD"
+    }
+}
