@@ -1,4 +1,5 @@
 import json
+# from enums import Currency, CardType
 from faker import Faker
 
 fake = Faker()
@@ -24,48 +25,48 @@ class UserDetails:
             }
         }
 
-    def set_address(self):
-        self._result['address']['address'] = ADDRESS
+    def set_address(self, address=ADDRESS):
+        self._result['address']['address'] = address
         return self
 
-    def set_city(self):
-        self._result['address']['city'] = CITY
+    def set_city(self, city=CITY):
+        self._result['address']['city'] = city
         return self
 
-    def set_state_name(self):
-        self._result['address']['state'] = STATE_NAME
+    def set_state_name(self, state_name=STATE_NAME):
+        self._result['address']['state'] = state_name
         return self
 
-    def set_postalcode(self):
-        self._result['address']['postalCode'] = POSTAL_CODE
+    def set_postalcode(self, postal_code=POSTAL_CODE):
+        self._result['address']['postalCode'] = postal_code
         return self
 
-    def set_coords(self):
+    def set_coords(self, lat=COORDS_LAT, lng=COORDS_LNG):
         data = {
-            "lat": float(COORDS_LAT),
-            "lng": float(COORDS_LNG)
+            "lat": float(lat),
+            "lng": float(lng)
         }
         self._result['address']['coordinates'] = data
         return self
 
-    def set_country(self):
-        self._result['address']['country'] = COUNTRY
+    def set_country(self, country=COUNTRY):
+        self._result['address']['country'] = country
         return self
 
-    def set_card_expire(self):
-        self._result['bank']['cardExpire'] = CARD_EXPIRE
+    def set_card_expire(self, card_expire=CARD_EXPIRE):
+        self._result['bank']['cardExpire'] = card_expire
         return self
 
-    def set_card_number(self):
-        self._result['bank']['cardNumber'] = CARD_NUMBER
+    def set_card_number(self, card_number=CARD_NUMBER):
+        self._result['bank']['cardNumber'] = card_number
         return self
 
-    def set_card_type(self):
-        self._result['bank']['cardType'] = CARD_PROVIDER
+    def set_card_type(self, card_provider=CARD_PROVIDER):
+        self._result['bank']['cardType'] = card_provider
         return self
 
-    def set_currency(self):
-        self._result['bank']['currency'] = CARD_CURRENCY
+    def set_currency(self, card_currency=CARD_CURRENCY):
+        self._result['bank']['currency'] = card_currency
         return self
 
     def mount(self):
@@ -84,10 +85,9 @@ class UserDetails:
     def build(self):
         return self._result
 
-
-user_details = UserDetails().mount().build()
-
-print(user_details)
+#
+# user_details = UserDetails().mount().build()
+# print(user_details)
 
 # with open('test_data.json', 'w') as f:
 #     json.dump(user_details, f)

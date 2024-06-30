@@ -34,6 +34,7 @@ async def test_login_fake_user_endpoint():
     assert serialize(user_info_class, resource(user_info_class, res.json())) == res.json()
     validate(json_user_login_schema, res.json())
     export_json_data('token', {"authorization": f"Bearer {res.json()['token']}"})
+    # print(res.json()['firstName'])
     pass
 
 
